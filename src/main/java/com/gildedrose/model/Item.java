@@ -2,7 +2,7 @@ package com.gildedrose.model;
 
 public class Item {
 
-    private String name;
+    private final String name;
 
     private int sellIn;
 
@@ -13,7 +13,6 @@ public class Item {
         this.sellIn = sellIn;
         this.quality = quality;
     }
-
 
     public String getName() {
         return this.name;

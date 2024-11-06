@@ -8,10 +8,10 @@ class SulfurasItemTest {
 
 
     // if Item name is Sulfuras, Hand of Ragnaros
-    // Quality and SellIn is constant, never changes
+    // Quality and SellIn is constant, never changes quality always 80
     @Test
     void sulfurasItemTest_NeverChanges() {
-        Item item = new Item("Sulfuras, Hand of Ragnaros", 10, 80);
+        Item item = new Item("Sulfuras, Hand of Ragnaros", 10, 20);
         SulfurasItem sut = new SulfurasItem(item);
 
         sut.updateQuality();

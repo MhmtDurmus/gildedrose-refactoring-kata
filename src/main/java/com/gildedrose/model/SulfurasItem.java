@@ -8,5 +8,6 @@ public class SulfurasItem extends ItemType {
     @Override
     public void updateQuality() {
         // "Sulfuras" quality and sellIn do not change
+        item.setQuality(80);
     }
 }
